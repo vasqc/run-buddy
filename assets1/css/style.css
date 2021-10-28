@@ -238,7 +238,8 @@ section {
     color: #fce138;
     font-size: 32px;
 }
-.contact-info p, .contact-info address {
+.contact-info p, 
+.contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
@@ -247,12 +248,22 @@ section {
 .contact-info a {
     color: #fce138;
 }
-.contact-info1 div{
-    width: 410px;
-    display: inline-flex;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
-    color: white;
+.hero {
+    margin: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: blue;
+}
+
+.hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+}
+.secondary-content {
+    background-color:white;
+    color:#39a6b2;
+    
 }
 
